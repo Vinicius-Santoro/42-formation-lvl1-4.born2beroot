@@ -5,6 +5,7 @@
 - This project consists of configuring a debian operating system without a graphical interface.
 
 <h1></h1>
+
 ### _Para entender o projeto, primeiro deve-se saber alguns termos importantes, sendo eles:_
 - <b>CentOS</b>: é uma das distribuições `Linux®`. Comumente usada para administração de servidores.
 - <b>KDump</b>: serve para o monitoramento do sistema. É um mecanismo de despejo do travamento do kernel. Esse despejo do travamento seria uma captura de informações do sistema que podem ser valiosas ao determinar a causa do travamento. Ou seja, são informações das causas que levaram o sistema a travar. (Para o CentOS).
