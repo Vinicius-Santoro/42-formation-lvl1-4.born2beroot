@@ -6,6 +6,7 @@
 
 <h1></h1>
 
+### _Como o projeto é feito dentro de uma máquina virtual e não possui códigos, achei interessante documentar todo meu processo de desenvoltura aqui. Se tiver alguma dúvida, por favor, me avise. Boa leitura :)_
 ### _Para entender o projeto, primeiro deve-se saber alguns termos importantes, sendo eles:_
 - <b>CentOS</b>: é uma das distribuições `Linux®`. Comumente usada para administração de servidores.
 - <b>KDump</b>: serve para o monitoramento do sistema. É um mecanismo de despejo do travamento do kernel. Esse despejo do travamento seria uma captura de informações do sistema que podem ser valiosas ao determinar a causa do travamento. Ou seja, são informações das causas que levaram o sistema a travar. (Para o CentOS).
