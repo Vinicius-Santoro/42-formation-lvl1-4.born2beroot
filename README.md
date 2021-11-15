@@ -93,6 +93,8 @@ acessar e fazer alterações em outro computador através do terminal.
 https://youtu.be/fWlsaIOYoJo
 -->
 
+---
+
 ### _2.Configurando o sistema operacional com o firewall UFW (Uncomplicated Firewall ou Firewall descomplicado) e deixando apenas a porta 4242 aberta:_
 Primeiro, devemos saber o que é o `firewall UFW`. O `firewall UFW` é um gerenciador simplificado de firewall que esconde a complexidade das tecnologias de filtragem de pacotes de baixo nível. Se desejamos começar a proteger a rede, mas não temos certeza sobre qual ferramenta usar, o UFW é a escolha certa para nós.
 Para fazermos isso, devemos usar os seguintes comandos:
