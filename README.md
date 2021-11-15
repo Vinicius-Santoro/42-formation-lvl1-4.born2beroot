@@ -4,7 +4,7 @@
 
 - This project consists of create my first machine in VirtualBox under specific instructions. 
 
-<h1></h1>
+---
 
 ### _Como este projeto é voltado para administração de sistemas operacionais, decidi colocar tudo o que usei para desenvolvê-lo. Boa leitura :)_
 
