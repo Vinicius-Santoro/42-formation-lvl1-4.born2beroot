@@ -85,13 +85,11 @@ acessar e fazer alterações em outro computador através do terminal.
 
 <a src="https://github.com/cadetes-42/born2beroot/blob/main/Images/LVM.mp4"><\a>
 
--->
 
 <a href="https://youtu.be/fWlsaIOYoJo" target="_blank">
  <img src="https://github.com/cadetes-42/born2beroot/blob/main/Images/mq2.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
-<!--
 https://youtu.be/fWlsaIOYoJo
 -->
 
@@ -258,7 +256,7 @@ _Usamos este comando para exibir a quantidade de CPU's físicas._
     
 _Usamos este comando para exibir a quantidade de CPU's virtuais._
 
-- `cat /proc/cpuinfo `: _Acessa o arquivo proc e depois o cpuinfo;_
+- `cat /proc/cpuinfo`: _Acessa o arquivo proc e depois o cpuinfo;_
 - `grep 'processor'`:  _Busca a palavra chave 'processor' no arquivo cpinfo;_
 - `wc -l`: _Conta a quantidade de vezes que aparece a palavra 'processor' e retorna essa quantidade._
 
@@ -380,4 +378,3 @@ _Um resumo geral:_
 | `cat /var/log/sudo/sudo.log`  | _Imprime todos os comandos sudo registrados no arquivo `sudo.log`_                                                             |
 
 ---
-
