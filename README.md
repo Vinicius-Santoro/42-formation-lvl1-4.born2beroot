@@ -81,18 +81,10 @@ acessar e fazer alterações em outro computador através do terminal.
 <img align="center" src="https://github.com/cadetes-42/born2beroot/blob/main/Images/1.Particionamento-Encriptado.png" widht="350"/>
 
 <!--
-### _Adicionando os volumes lógicos:_
+### _Criando um particionamento encriptado ():_
 
-<a src="https://github.com/cadetes-42/born2beroot/blob/main/Images/LVM.mp4"><\a>
-
-
-<a href="https://youtu.be/fWlsaIOYoJo" target="_blank">
- <img src="https://github.com/cadetes-42/born2beroot/blob/main/Images/mq2.jpg" alt="Watch the video" width="240" height="180" border="10" />
-</a>
-
-https://youtu.be/fWlsaIOYoJo
+https://user-images.githubusercontent.com/83036509/141871142-9f8792ef-bbbe-4512-ae8d-89431f8e502a.mp4
 -->
-
 ---
 
 ### _2.Configurando o sistema operacional com o firewall UFW (Uncomplicated Firewall ou Firewall descomplicado) e deixando apenas a porta 4242 aberta:_
