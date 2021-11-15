@@ -6,7 +6,7 @@
 
 <h1></h1>
 
-### _Como este projeto é voltado para o aprendizado de administração de sistemas operacionais, decidi colocar tudo o que usei para desenvolvê-lo. Boa leitura :)_
+### _Como este projeto é voltado para administração de sistemas operacionais, decidi colocar tudo o que usei para desenvolvê-lo. Boa leitura :)_
 
 <h1></h1>
 
