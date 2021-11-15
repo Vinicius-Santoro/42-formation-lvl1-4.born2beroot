@@ -247,7 +247,7 @@ _Usamos este comando para exibir as informações da arquitetura do sistema oper
 _Usamos este comando para exibir a quantidade de CPU's físicas._    
 
 - `cat /proc/cpuinfo`: _Acessa o arquivo proc e depois o cpuinfo;_
-- `grep 'physical id' `:  _Busca a palavra chave 'physical id' no arquivo cpinfo;_
+- `grep 'physical id'`:  _Busca a palavra chave 'physical id' no arquivo cpinfo;_
 - `wc -l`: _Conta a quantidade de vezes que aparece as palavras 'physical id' e retorna essa quantidade._
 
 <h1></h1>
