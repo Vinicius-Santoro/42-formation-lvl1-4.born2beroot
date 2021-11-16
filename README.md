@@ -40,7 +40,7 @@ com pouca frequência, o que torna ele um sistema mais estável que o Debian.
 
 <h1></h1>
 
-### _Quais as diferença entre SELinux e AppArmor_
+### _Quais as diferenças entre SELinux e AppArmor_
 
    - <b>SELinux:</b> o `Security-Enhanced Linux®`, também conhecido como `SELinux`, é uma arquitetura de segurança para sistemas `Linux®` que permite que administradores tenham mais controle sobre quem pode acessar o sistema (Para o `CentOS`).
    - <b>AppArmor</b>: tem o mesmo funcionamento do `SELinux,` só que para o `Debian`.
