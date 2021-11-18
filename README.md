@@ -341,7 +341,7 @@ _Usamos este comando para saber os endereços MAC da máquina virtual._
 
 <h1></h1>
 
-   SUDO=$(cat /var/log/sudo/sudo.log | grep 'COMMAND' | wc -l)
+    SUDO=$(cat /var/log/sudo/sudo.log | grep 'COMMAND' | wc -l)
 
 _Usamos este comando para verificar a quantidade de comandos SUDO usados. Todos esses comando ficam na pasta `sudo.log.`_
 
@@ -372,3 +372,5 @@ _Um resumo geral:_
 | `cat /var/log/sudo/sudo.log`  | _Imprime todos os comandos sudo registrados no arquivo `sudo.log`_                                                             |
 
 ---
+
+Trabalho feito com: [Lucas Datilio Carderelli](https://github.com/LucasDatilioCarderelli).
