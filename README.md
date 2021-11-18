@@ -258,21 +258,21 @@ _Usamos este comando para exibir a quantidade de CPU's virtuais._
 
     (free -m \| grep "Mem.:" \| awk '{print $3}')
     
-_Usamos este comando para armazenara quantidade de memória RAM total._
+_Usamos este comando para armazenara quantidade de memória RAM usada._
 
 - `free -m` _Os valores são exibidos em megabytes. Se quisessemos em gb, era só usar a flag -g;_
 - `grep "Mem.:'` _Busca a palavra chave 'Mem.:' na saída de free -m;_
-- `awk '{print $3}'` _O AWK é um processador de texto. Junto com o print, nós imprimimos o elemento na posição 3, que no caso é a memória._
+- `awk '{print $3}'` _O AWK é um processador de texto. Junto com o print, nós imprimimos o elemento na posição 3, que no caso é a a quantidade de memória usada._
 
 <h1></h1>
 
     (free -m \| grep "Mem.:" \| awk '{printf("%.2f"), $3/$2*100}')
 
-_Usamos este comando para armazenara quantidade de memória RAM usada._
+_Usamos este comando para armazenara quantidade de memória RAM total._
 
 - `free -m` _Os valores são exibidos em megabytes. Se quisessemos em gb, era só usar a flag -g;_
 - `grep "Mem.:'` _Busca a palavra chave 'Mem.:' na saída de free -m;_
-- `awk '{print $2}'` _O AWK é um processador de texto. Junto com o print, nós imprimimos o elemento na posição 2, que no caso é a quantidade de memória usada._
+- `awk '{print $2}'` _O AWK é um processador de texto. Junto com o print, nós imprimimos o elemento na posição 2, que no caso é a memória total._
 
 <h1></h1>
 
