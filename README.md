@@ -181,8 +181,8 @@ Veja como o código ficou:
 ARCHITECTURE=$(uname -a)
 CPU=$(cat /proc/cpuinfo | grep 'physical id' | wc -l)
 VIRTUALCPU=$(cat /proc/cpuinfo | grep 'processor' | wc -l)
-TOTALRAM=$(free -m | grep "Mem.:" | awk '{print $3}')
-USAGERAM=$(free -m | grep "Mem.:" | awk '{print $2}')
+USAGERAM=$(free -m | grep "Mem.:" | awk '{print $3}')
+TOTALRAM=$(free -m | grep "Mem.:" | awk '{print $2}')
 PERCENTRAM=$(free -m | grep "Mem.:" | awk '{printf("%.2f"), $3/$2*100}')
 DSK1=$(df -m --total | grep "total" | awk '{print $3}')
 DSK2=$(df -h --total | grep "total" | awk '{printf ("%.0f"), $2}')
@@ -201,7 +201,7 @@ wall "
         #Architecture: $ARCHITECTURE
         #CPU physical: $CPU
         #vCPU: $VIRTUALCPU
-        #Memory Usage: $TOTALRAM/${USAGERAM}MB ($PERCENTRAM%)
+        #Memory Usage: $USAGERAM/${TOTALRAM}MB ($PERCENTRAM%)
         #Disk Usage: $DSK1/${DSK2}GB ($DSK3)
         #CPU load: $LCPU
         #Last boot: $LASTBOOT
